@@ -1,0 +1,95 @@
+.nav2{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px black solid; */
+    display: none;
+  }
+  .logo2{
+    position: absolute;
+    top: 10px;
+   left: 20px;
+   border: 5px black solid;
+   padding: 9px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  .drawer{
+    height: 30px;
+    width: 30px;
+    border: 1px black solid;
+    position: absolute;
+    left: 935px;
+    top: 20px;
+    background-color: red;
+  }
+  .landing{
+    height: 100vh;
+    width: 20vw;
+    /* border: 1px black solid; */
+    /* box-sizing: border-box; */
+    background-color: #F5EEDC;
+    position: fixed;
+    z-index: 10;
+  }
+  .logo{
+    position: absolute;
+    top: 5vh;
+   left: 2vw;
+   border: 5px black solid;
+   padding: 9px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav{
+    width: 4vw;
+    height: 220px;
+    /* border: 1px black solid; */
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-top: 10px; */
+    /* padding-bottom: 50px;  */
+  }
+  .nav>li a{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 11px;
+    padding-top: 0px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: black;
+
+    
+  }
+  .nav>li> a:hover{
+    color: red;
+    border-left: 4px red solid;
+    padding-left: 7px;
+    padding-top: 12px;
+  }
+  .logos{
+    height: 25px;
+    width: 150px;
+    position: fixed;
+    /* border: 1px black solid; */
+    top: 400px;
+    /* left: 3vw; */
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+    /* padding-top: 30px; */
+    position: fixed;
+  }
+  .logos>i{
+    transition-duration: 0.3s;
+  }
+  .logos>i:hover{
+    color: red;
+    cursor: pointer; 
+  }

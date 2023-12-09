@@ -1,0 +1,74 @@
+.contact{
+    height: 1000px;
+    width: 650px;
+    /* border: 1px black solid; */
+    position: relative;
+    left: 35vw;
+    top: 700px;
+  }
+  .contact>h1{
+    font-size: 50px;
+    position: absolute;
+    background: transparent;
+  }
+  .inp{
+    position: relative;
+    top: 15vh;
+    height: 550px;
+    width: 50.5vw;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  input{
+    height: 55px;
+    width: 24vw;
+    /* border: 1px black solid; */
+    background-color: #BF92704D;
+    /* padding: 1px; */
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  ::placeholder{
+    font-size: 17px;
+    color: black;
+    /* padding-left: 10px; */
+  }
+  .in2{
+    height: 55px;
+    width: 59.5vw;
+    /* border: 1px black solid; */
+    border: none;
+  }
+  .in3{
+    height: 200px;
+    width: 59.5vw;
+    /* border: 1px black solid; */
+    border: none;
+  }
+  .in3::placeholder{
+    padding-bottom: 200px;
+  }
+  .endbt{
+    position: relative;
+    top: 18vh;
+    /* left: 35vw; */
+    height: 60px;
+    width: 220px;
+    /* border: 1px black solid; */
+    border: none;
+    border-radius: 10px;
+    background-color: #DD4A48;
+    color: white;
+  }.endbt>h2{
+    background: transparent;
+  }
+  .endbt:hoveR{
+    background-color: red;
+    cursor: pointer;
+  }

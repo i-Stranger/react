@@ -1,0 +1,66 @@
+.landing2{
+    height: 90vh;
+    width: 79.5vw;
+    /* box-sizing: border-box; */
+    /* border: 1px black solid; */
+    position: relative;
+    left: 20vw;
+    top: 5px;
+    background-image: url(/hero-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: space-between;
+  
+  }
+  
+  .heading{
+    color: white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .landing2>p{
+    /* border: 1px black solid; */
+    width: 44vw;
+    /* height: 70px; */
+    font-size: 22px;
+    text-align: center;
+    line-height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.3s;
+    padding-bottom: 20px;
+  }
+  .landing2>p>span:hover{
+    color: red;
+    /* transition-duration: 0.3s; */
+    cursor: pointer;
+  }
+  .bt1{
+    height: 60px;
+    width: 250px;
+    border: none;
+    background-color: #DD4A48;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition-duration: 0.4s;
+    
+    
+  }
+  .bt1:hover{
+    background-color: red;
+    cursor: pointer;
+  }
